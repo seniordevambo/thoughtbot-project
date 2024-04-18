@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    background-color: #f2f2f2;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px
+}
+.child {
+    border-right: 1px solid #ccc;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+p {
+    line-height: 3;
+}
